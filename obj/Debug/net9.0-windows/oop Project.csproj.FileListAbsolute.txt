@@ -1,0 +1,19 @@
+C:\Users\BADR\source\repos\oop Project\oop Project\bin\Debug\net9.0-windows\oop Project.exe
+C:\Users\BADR\source\repos\oop Project\oop Project\bin\Debug\net9.0-windows\oop Project.deps.json
+C:\Users\BADR\source\repos\oop Project\oop Project\bin\Debug\net9.0-windows\oop Project.runtimeconfig.json
+C:\Users\BADR\source\repos\oop Project\oop Project\bin\Debug\net9.0-windows\oop Project.dll
+C:\Users\BADR\source\repos\oop Project\oop Project\bin\Debug\net9.0-windows\oop Project.pdb
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop Project.csproj.GenerateResource.cache
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop Project.AssemblyInfoInputs.cache
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop Project.AssemblyInfo.cs
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop Project.csproj.CoreCompileInputs.cache
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop Project.dll
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\refint\oop Project.dll
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop Project.pdb
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop Project.genruntimeconfig.cache
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\ref\oop Project.dll
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop_Project.Properties.Resources.resources
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop_Project.Form2.resources
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop_Project.FormLogIn.resources
+C:\Users\BADR\source\repos\oop Project\oop Project\obj\Debug\net9.0-windows\oop_Project.FormChangePassword.resources
