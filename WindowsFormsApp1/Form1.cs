@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         public DashForm()
         {
             InitializeComponent();
+            ;
         }
 
         private void dataGridViewDash_CellContentClick(object sender, DataGridViewCellEventArgs e)
