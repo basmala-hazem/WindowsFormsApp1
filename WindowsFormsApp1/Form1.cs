@@ -4,30 +4,45 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class DashForm : Form
     {
-        public Form1()
+        public DashForm()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void dataGridViewDash_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            this.Hide();
-            Form2 frm2 = new Form2();
-            frm2.Show();
+
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void members_btn_Click(object sender, EventArgs e)
         {
-            
+
+
+            MemberForm frm = new MemberForm(this);
+            frm.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
