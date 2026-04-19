@@ -1,71 +1,49 @@
-using System.Linq.Expressions;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace oop_Project
+namespace WindowsFormsApp1
 {
-    public partial class FormLogIn : Form
+    public partial class DashForm : Form
     {
-        
-       
-        public FormLogIn()
+        public DashForm()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
             
-            string name = txtname.Text;
-            string password = txtPassword.Text;
-
-            if (name == "" || password == "")
-            {
-                lblerror.Location = new Point(65, 270);
-                lblerror.Text = "Please enter both username and password.";
-            }
-            else if (name == Admin.username && password == Admin.password)
-            {
-                this.Hide();
-                Form2 form2 = new Form2();
-                form2.ShowDialog();
-                form2.Show();
-                this.Close();
-            }
-            else
-            {
-                lblerror.Location = new Point(98, 270);
-                lblerror.Text = "Invalid username or password.";
-            }
-
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            this.Hide();
-            FormChangePassword formforgetpass = new FormChangePassword();
-            formforgetpass.ShowDialog();
-            this.Close();
-        }
-
-        private void txtPassword_TextChanged(object sender, EventArgs e)
+        private void dataGridViewDash_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
-    }
-    static class Admin // Static class to hold admin credentials
-    {
-        public static string username = "admin";
-        public static string password = "adminadmin123";
+
+        private void members_btn_Click(object sender, EventArgs e)
+        {
+
+
+            MemberForm frm = new MemberForm(this);
+            frm.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
